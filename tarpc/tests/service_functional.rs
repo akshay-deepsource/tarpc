@@ -5,7 +5,7 @@ use futures::{
 };
 use std::time::{Duration, SystemTime};
 use tarpc::{
-    client::{self},
+    client,
     context,
     server::{self, incoming::Incoming, BaseChannel, Channel},
     transport::channel,
